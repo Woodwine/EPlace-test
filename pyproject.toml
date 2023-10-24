@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "eplace-test"
+version = "0.1.0"
+description = ""
+authors = ["Woodwine <sd@myexe.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["all"], version = "^0.104.0"}
+beanie = "^1.23.1"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
